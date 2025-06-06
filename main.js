@@ -130,3 +130,32 @@ for(let i = 0; i < navigationLinks.length; i++) {
         }
     });
 }
+
+
+//////////
+function emailSend() {
+    var userame = document.getElementById('name').value;
+    var emailUser = document.getElementById('email').value;
+    var messageUser = document.getElementById('message').value;
+
+    var messageBody = "Name: " + userame +
+        "<br/> Email: " + emailUser +
+        "<br/> Message: " + messageUser;
+    Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "moonnovationtechnology@gmail.com",
+        Password: "77E35E7987E46FD8C04D537DCBCFF3572DF4",
+        To: "abdelrahman20e@gmail.com",
+        From: "moonnovationtechnology@gmail.com",
+        Subject: "This is the subject",
+        Body: messageBody
+    }).then(
+        message => {
+            if (message == 'OK') {
+                swal("Secussfull", "You clicked the button!", "success");
+            } else {
+                swal("Error", "You clicked the button!", "error");
+            }
+        }
+    );
+}

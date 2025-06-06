@@ -914,15 +914,16 @@
                 <section class="contact-form">
                     <h3 class="h3 form-title">Contact Form</h3>
 
-                    <form action="#" class="form" data-form>
+                    <form action="https://api.web3forms.com/submit" method="POST" class="form" >
                         <div class="input-wrapper">
-                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                            <input type="hidden" name="access_key" value="b0807d53-69c1-4baa-b0e9-6a56e8ed32ac">
+                            <input id="name" type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input id="email" type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
                         </div>
 
-                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+                        <textarea id="mas" name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
 
-                        <button class="form-btn" type="submit" disabled data-form-btn>
+                        <button class="form-btn" type="submit">
                             <ion-icon name="paper-plane"></ion-icon>
                             <span>Send Message</span>
                         </button>
@@ -933,7 +934,22 @@
     </main>
 
     <script src="main.js"></script>
-
+<!-- <script>
+function sendEmail(){
+    Email.send({
+    SecureToken : "6d9dd292-3d4f-4e68-9025-f2160ea6ad63",
+    To : 'abdelrahman20e@gmail.com',
+    From : "abdelrahman20e@gmail.com",
+    Subject : "Test",
+    Body : "Name:  " + document.getElementById("name").value
+          +"<br> Email:  " + document.getElementById("email").value  
+          +"<br> Message:  " + document.getElementById("mas").value  
+}).then(
+  message => alert("message sent succesfully")
+);
+}
+</script> -->
+<script src="Include a script tag to https://smtpjs.com/v3/smtp.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
