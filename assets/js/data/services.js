@@ -29,13 +29,15 @@ const servicesData = [
   },
   {
     icon: "color-palette-outline",
-    title: "Graphic Design & Branding",
-    description: "Creating visual identities, UI designs, and creative graphics.",
+    title: "Graphic Design",
+    description:
+      "Creating visual identities, UI designs, and creative graphics.",
   },
   {
     icon: "videocam-outline",
-    title: "Video Editing & Motion",
-    description: "Editing high-quality videos, promotional content, and motion graphics.",
+    title: "Video Editing",
+    description:
+      "Editing high-quality videos, promotional content, and motion graphics.",
   },
 ];
 

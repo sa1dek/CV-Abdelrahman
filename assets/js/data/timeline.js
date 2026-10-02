@@ -18,10 +18,16 @@
  */
 const educationData = [
   {
+    title: "Helwan Technological University",
+    period: "2025 - 2028",
+    description:
+      "2nd-year AI student at Helwan Technological University, specializing in building and interacting with AI models and working on a 2nd-year graduation project.",
+  },
+  {
     title: "High school Of Misr International Computer & AI",
     period: "2022 - 2025",
     description:
-      "There I learned a wide range of subjects that are essential to understanding the theoretical and practical aspects of computers. These include programming fundamentals, computer architecture, operating systems, databases, software engineering, problem solving, collaboration, and communication skills.",
+      "Specialized in programming, covering basics of databases and robotics, with hands-on Java projects and a graduation project.",
   },
 ];
 
@@ -31,22 +37,34 @@ const educationData = [
  */
 const experienceData = [
   {
-    title: "Robotics Engineering",
-    period: "2022 - 2024",
+    title: "Frontend Development",
+    period: "",
     description:
-      "I can make robots using Arduino, and I participated in competitions in a line-following robot.",
+      "Building responsive, interactive, and user-friendly web interfaces.",
   },
   {
-    title: "Programming",
-    period: "2022 - 2025",
+    title: "Programming Development",
+    period: "",
     description:
-      "I create desktop applications, design websites and learn more than 5 programming languages.",
+      "Writing clean code, solving problems, and developing software applications.",
+  },
+  {
+    title: "Robotics & Microcontrollers",
+    period: "",
+    description:
+      "Building and programming hardware projects using Arduino and microcontrollers.",
   },
   {
     title: "Graphic Design",
-    period: "2025 - ",
+    period: "",
     description:
-      "I design logos and social media designs and I have experience in Photoshop and Illustrator.",
+      "Creating visual content, branding materials, and marketing graphics",
+  },
+  {
+    title: "Video Editing",
+    period: "",
+    description:
+      "Editing and producing engaging video content with clean transitions and visuals.",
   },
 ];
 
@@ -66,7 +84,7 @@ function renderTimeline(container, data) {
       (item) => `
         <li class="timeline-item">
             <h4 class="h4 timeline-item-title">${item.title}</h4>
-            <span>${item.period}</span>
+            ${/*<span>${item.period}</span>*/ ""}
             <p class="timeline-text">${item.description}</p>
         </li>
     `,

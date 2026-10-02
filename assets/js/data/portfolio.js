@@ -33,6 +33,22 @@ const portfolioData = [
   },
   {
     category: "web development",
+    image: "assets/images/web/watch-website-store.jpg",
+    alt: "Watch website store",
+    title: "Watch Website Store",
+    categoryLabel: "Website",
+    link: "assets/images/web/watch-website-store.jpg",
+  },
+  {
+    category: "web development",
+    image: "assets/images/web/organizational-details.png",
+    alt: "Organizational details",
+    title: "Organizational Details",
+    categoryLabel: "Website",
+    link: "assets/images/web/organizational-details.png",
+  },
+  {
+    category: "web development",
     image: "assets/images/web/dashboard.png",
     alt: "Dashboard web project",
     title: "Dashboard",
@@ -89,15 +105,23 @@ const portfolioData = [
     categoryLabel: "Desktop Applications",
     link: "assets/images/desktop/online-exam.png",
   },
-
+  // Robotics
+  // {
+  //   category: "robotics",
+  //   image: "assets/images/robotics/robotic-arm.jpg",
+  //   alt: "Line Follower Robot",
+  //   title: "Line Follower Robot",
+  //   categoryLabel: "Robotics",
+  //   link: "assets/images/pdf/robotic-arm.pdf",
+  // },
   // Graphic Design
   {
     category: "graphic design",
-    image: "assets/images/photoshop/mouse.png",
+    image: "assets/images/photoshop/mouse-logitech.png",
     alt: "Logitech mouse graphic design",
     title: "Mouse Logitech",
     categoryLabel: "Graphic Design",
-    link: "assets/images/photoshop/mouse.png",
+    link: "assets/images/pdf/mouse-logitech.pdf",
   },
   {
     category: "graphic design",
@@ -105,7 +129,7 @@ const portfolioData = [
     alt: "Horror movie poster design",
     title: "Horror Movie",
     categoryLabel: "Graphic Design",
-    link: "assets/images/photoshop/monestor.png",
+    link: "assets/images/pdf/monestor.pdf",
     external: true,
     ariaLabel: "View Monestor poster",
   },
@@ -115,7 +139,7 @@ const portfolioData = [
     alt: "Josue graphic design",
     title: "Josue",
     categoryLabel: "Graphic Design",
-    link: "assets/images/photoshop/josue.png",
+    link: "assets/images/pdf/josue.pdf",
   },
   {
     category: "graphic design",
@@ -123,7 +147,7 @@ const portfolioData = [
     alt: "Night Mood graphic design",
     title: "Night Mood",
     categoryLabel: "Graphic Design",
-    link: "assets/images/photoshop/car-fajr-mood.png",
+    link: "assets/images/pdf/car-fajr-mood.pdf",
   },
   {
     category: "graphic design",
@@ -131,7 +155,7 @@ const portfolioData = [
     alt: "BYD car graphic design",
     title: "BYD Car",
     categoryLabel: "Graphic Design",
-    link: "assets/images/photoshop/car-byd.png",
+    link: "assets/images/pdf/car-byd.pdf",
     external: true,
     ariaLabel: "Open Car BYD PDF",
   },
@@ -141,7 +165,7 @@ const portfolioData = [
     alt: "7UP graphic design",
     title: "7UP",
     categoryLabel: "Graphic Design",
-    link: "assets/images/photoshop/7up.png",
+    link: "assets/images/pdf/7up.pdf",
   },
   {
     category: "graphic design",
@@ -149,17 +173,61 @@ const portfolioData = [
     alt: "Ramadan graphic design",
     title: "Ramadan",
     categoryLabel: "Graphic Design",
-    link: "assets/images/photoshop/ramadan.png",
+    link: "assets/images/pdf/ramadan.pdf",
   },
 
   // Certificates
+  {
+    category: "certificates",
+    image: "assets/images/certificates/nti-ai-program-2026.jpg",
+    alt: "AI Ambassadors program From NTI Certificate",
+    title: "AI Ambassadors program From NTI",
+    categoryLabel: "Certificates",
+    link: "assets/images/pdf/nti-ai-program-2026.pdf",
+  },
+  // Mica Certificates
+  {
+    category: "certificates",
+    image: "assets/images/certificates/java-summer-camp-2024.jpg",
+    alt: "Java Summer Camp Certificate",
+    title: "Java Summer Camp",
+    categoryLabel: "Certificates",
+    link: "assets/images/pdf/java-summer-camp-2024.pdf",
+  },
+  {
+    category: "certificates",
+    image:
+      "assets/images/certificates/robocup-mica-line-follower-robot-2025.jpg",
+    alt: "RoboCup MICA Egypt Competition Certificate",
+    title: "RoboCup MICA Egypt Competition",
+    categoryLabel: "Certificates",
+    link: "assets/images/pdf/robocup-mica-line-follower-robot-2025.pdf",
+  },
+  {
+    category: "certificates",
+    image:
+      "assets/images/certificates/robocup-mica-line-follower-robot-2023.jpg",
+    alt: "RoboCup MICA Egypt Competition Certificate",
+    title: "RoboCup MICA Egypt Competition",
+    categoryLabel: "Certificates",
+    link: "assets/images/pdf/robocup-mica-line-follower-robot-2023.pdf",
+  },
+  {
+    category: "certificates",
+    image: "assets/images/certificates/ai-course-2024.jpg",
+    alt: "AI Course 2024 Certificate",
+    title: "AI Course 2024",
+    categoryLabel: "Certificates",
+    link: "assets/images/pdf/ai-course-2024.pdf",
+  },
+  // Oracle Certificates
   {
     category: "certificates",
     image: "assets/images/certificates/dd-database.jpg",
     alt: "Database Design Certificate",
     title: "Database Design",
     categoryLabel: "Certificates",
-    link: "assets/images/certificates/dd-database.pdf",
+    link: "assets/images/pdf/dd-database.pdf",
   },
   {
     category: "certificates",
@@ -167,7 +235,7 @@ const portfolioData = [
     alt: "Database Foundation Certificate",
     title: "Database Foundation",
     categoryLabel: "Certificates",
-    link: "assets/images/certificates/df-database.pdf",
+    link: "assets/images/pdf/df-database.pdf",
   },
   {
     category: "certificates",
@@ -175,7 +243,7 @@ const portfolioData = [
     alt: "Database Programming With SQL Certificate",
     title: "Database Programming With SQL",
     categoryLabel: "Certificates",
-    link: "assets/images/certificates/dp-database.pdf",
+    link: "assets/images/pdf/dp-database.pdf",
   },
   {
     category: "certificates",
@@ -183,7 +251,7 @@ const portfolioData = [
     alt: "Java Foundation Certificate",
     title: "Java Foundation",
     categoryLabel: "Certificates",
-    link: "assets/images/certificates/jff-java.pdf",
+    link: "assets/images/pdf/jff-java.pdf",
   },
   {
     category: "certificates",
@@ -191,7 +259,7 @@ const portfolioData = [
     alt: "Java Fundamentals Certificate",
     title: "Java Fundamentals",
     categoryLabel: "Certificates",
-    link: "assets/images/certificates/jf-java.pdf",
+    link: "assets/images/pdf/jf-java.pdf",
   },
   {
     category: "certificates",
@@ -199,7 +267,7 @@ const portfolioData = [
     alt: "Java Programming Certificate",
     title: "Java Programming",
     categoryLabel: "Certificates",
-    link: "assets/images/certificates/jp-java.pdf",
+    link: "assets/images/pdf/jp-java.pdf",
   },
   {
     category: "certificates",
@@ -207,7 +275,7 @@ const portfolioData = [
     alt: "PL/SQL Database Programming Semester 2 certificate",
     title: "PL/SQL Database Programming Semester2",
     categoryLabel: "Certificates",
-    link: "assets/images/certificates/pl-sql_database.pdf",
+    link: "assets/images/pdf/pl-sql_database.pdf",
   },
 ];
 
