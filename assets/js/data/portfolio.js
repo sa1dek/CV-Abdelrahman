@@ -30,6 +30,7 @@ const portfolioData = [
     title: "QR Code Generator",
     categoryLabel: "Website",
     link: "https://qr-code-generator-gules-iota.vercel.app/",
+    external: true,
   },
   {
     category: "web development",
@@ -37,23 +38,26 @@ const portfolioData = [
     alt: "Watch website store",
     title: "Watch Website Store",
     categoryLabel: "Website",
-    link: "assets/images/web/watch-website-store.jpg",
+    link: "https://sa1dek.github.io/Digital-Watch-Landing-Page/",
+    external: true,
   },
   {
     category: "web development",
     image: "assets/images/web/organizational-details.png",
-    alt: "Organizational details",
-    title: "Organizational Details",
+    alt: "Custom Links tree website",
+    title: "Custom Links tree",
     categoryLabel: "Website",
-    link: "assets/images/web/organizational-details.png",
+    link: "https://relief-hostel.vercel.app/",
+    external: true,
   },
   {
     category: "web development",
-    image: "assets/images/web/dashboard.png",
+    image: "assets/images/web/dashboard.jpg",
     alt: "Dashboard web project",
     title: "Dashboard",
     categoryLabel: "Website",
-    link: "assets/images/pdf/DashBoard.pdf",
+    link: "assets/images/pdf/dashboard.pdf",
+    external: true,
   },
   {
     category: "web development",
@@ -62,14 +66,16 @@ const portfolioData = [
     title: "Portfolio Website",
     categoryLabel: "Website",
     link: "assets/images/pdf/website.pdf",
+    external: true,
   },
   {
     category: "web development",
-    image: "assets/images/web/website-login.png",
+    image: "assets/images/web/website-login.jpg",
     alt: "Website login pages",
     title: "Website Login Pages",
     categoryLabel: "Website",
     link: "assets/images/pdf/website-login.pdf",
+    external: true,
   },
 
   // Desktop Applications
@@ -80,6 +86,7 @@ const portfolioData = [
     title: "System Library",
     categoryLabel: "Desktop Applications",
     link: "assets/images/desktop/library.png",
+    external: true,
   },
   {
     category: "desktop applications",
@@ -88,6 +95,7 @@ const portfolioData = [
     title: "System Online Exam Home",
     categoryLabel: "Desktop Applications",
     link: "assets/images/desktop/online-home-page.png",
+    external: true,
   },
   {
     category: "desktop applications",
@@ -96,6 +104,7 @@ const portfolioData = [
     title: "System Online Exam Login",
     categoryLabel: "Desktop Applications",
     link: "assets/images/desktop/online-login-page.png",
+    external: true,
   },
   {
     category: "desktop applications",
@@ -104,6 +113,7 @@ const portfolioData = [
     title: "System Online Exam",
     categoryLabel: "Desktop Applications",
     link: "assets/images/desktop/online-exam.png",
+    external: true,
   },
   // Robotics
   // {
@@ -113,6 +123,7 @@ const portfolioData = [
   //   title: "Line Follower Robot",
   //   categoryLabel: "Robotics",
   //   link: "assets/images/pdf/robotic-arm.pdf",
+  // external: true,
   // },
   // Graphic Design
   {
@@ -122,6 +133,7 @@ const portfolioData = [
     title: "Mouse Logitech",
     categoryLabel: "Graphic Design",
     link: "assets/images/pdf/mouse-logitech.pdf",
+    external: true,
   },
   {
     category: "graphic design",
@@ -140,6 +152,7 @@ const portfolioData = [
     title: "Josue",
     categoryLabel: "Graphic Design",
     link: "assets/images/pdf/josue.pdf",
+    external: true,
   },
   {
     category: "graphic design",
@@ -148,6 +161,7 @@ const portfolioData = [
     title: "Night Mood",
     categoryLabel: "Graphic Design",
     link: "assets/images/pdf/car-fajr-mood.pdf",
+    external: true,
   },
   {
     category: "graphic design",
@@ -166,6 +180,7 @@ const portfolioData = [
     title: "7UP",
     categoryLabel: "Graphic Design",
     link: "assets/images/pdf/7up.pdf",
+    external: true,
   },
   {
     category: "graphic design",
@@ -174,6 +189,7 @@ const portfolioData = [
     title: "Ramadan",
     categoryLabel: "Graphic Design",
     link: "assets/images/pdf/ramadan.pdf",
+    external: true,
   },
 
   // Certificates
@@ -184,6 +200,7 @@ const portfolioData = [
     title: "AI Ambassadors program From NTI",
     categoryLabel: "Certificates",
     link: "assets/images/pdf/nti-ai-program-2026.pdf",
+    external: true,
   },
   // Mica Certificates
   {
@@ -193,6 +210,7 @@ const portfolioData = [
     title: "Java Summer Camp",
     categoryLabel: "Certificates",
     link: "assets/images/pdf/java-summer-camp-2024.pdf",
+    external: true,
   },
   {
     category: "certificates",
@@ -202,6 +220,7 @@ const portfolioData = [
     title: "RoboCup MICA Egypt Competition",
     categoryLabel: "Certificates",
     link: "assets/images/pdf/robocup-mica-line-follower-robot-2025.pdf",
+    external: true,
   },
   {
     category: "certificates",
@@ -211,6 +230,7 @@ const portfolioData = [
     title: "RoboCup MICA Egypt Competition",
     categoryLabel: "Certificates",
     link: "assets/images/pdf/robocup-mica-line-follower-robot-2023.pdf",
+    external: true,
   },
   {
     category: "certificates",
@@ -219,6 +239,7 @@ const portfolioData = [
     title: "AI Course 2024",
     categoryLabel: "Certificates",
     link: "assets/images/pdf/ai-course-2024.pdf",
+    external: true,
   },
   // Oracle Certificates
   {
@@ -228,6 +249,7 @@ const portfolioData = [
     title: "Database Design",
     categoryLabel: "Certificates",
     link: "assets/images/pdf/dd-database.pdf",
+    external: true,
   },
   {
     category: "certificates",
@@ -236,6 +258,7 @@ const portfolioData = [
     title: "Database Foundation",
     categoryLabel: "Certificates",
     link: "assets/images/pdf/df-database.pdf",
+    external: true,
   },
   {
     category: "certificates",
@@ -244,6 +267,7 @@ const portfolioData = [
     title: "Database Programming With SQL",
     categoryLabel: "Certificates",
     link: "assets/images/pdf/dp-database.pdf",
+    external: true,
   },
   {
     category: "certificates",
@@ -252,6 +276,7 @@ const portfolioData = [
     title: "Java Foundation",
     categoryLabel: "Certificates",
     link: "assets/images/pdf/jff-java.pdf",
+    external: true,
   },
   {
     category: "certificates",
@@ -260,6 +285,7 @@ const portfolioData = [
     title: "Java Fundamentals",
     categoryLabel: "Certificates",
     link: "assets/images/pdf/jf-java.pdf",
+    external: true,
   },
   {
     category: "certificates",
@@ -268,6 +294,7 @@ const portfolioData = [
     title: "Java Programming",
     categoryLabel: "Certificates",
     link: "assets/images/pdf/jp-java.pdf",
+    external: true,
   },
   {
     category: "certificates",
@@ -276,6 +303,7 @@ const portfolioData = [
     title: "PL/SQL Database Programming Semester2",
     categoryLabel: "Certificates",
     link: "assets/images/pdf/pl-sql_database.pdf",
+    external: true,
   },
 ];
 
